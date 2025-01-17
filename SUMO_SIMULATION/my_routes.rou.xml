@@ -1,0 +1,104 @@
+<routes>
+                
+     <!-- Vehicles -->     
+                      
+    <vType id="car" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="16.67" guiShape="passenger"/>
+    <vType id="emergency_car" accel="1.2" decel="6.0" sigma="0.5" length="6" minGap="2.5" maxSpeed="25.0" guiShape="emergency"/>
+
+    <!-- Common Routes -->
+                           
+    <route id="route0" edges="1to7 7to8 8to2"/>
+    <route id="route1" edges="2to8 8to7 7to1"/>
+    <route id="route2" edges="3to7 7to4"/>
+    <route id="route3" edges="4to7 7to3"/>
+    <route id="route4" edges="5to8 8to6"/>
+    <route id="route5" edges="6to8 8to5"/>
+                
+
+    <!-- Emergency Routes -->
+                        
+    <route id="emergency_route1" edges="e1to7 7to8 8to2"/>
+    <route id="emergency_route2" edges=" 2to8 8to7 7toe1"/>  
+              
+
+
+    <!-- Complex Routes -->
+                               
+    <route id="complex_route1" edges="1to7 7to4"/>
+    <route id="complex_route2" edges="1to7 7to3"/>
+    <route id="complex_route3" edges="1to7 7to8 8to6"/>  
+    <route id="complex_route4" edges="1to7 7to8 8to5"/>
+    <route id="complex_route5" edges="1to7 7to8 8to2"/>         
+    
+    <route id="complex_route6" edges="2to8 8to6"/>'
+    <route id="complex_route7" edges="2to8 8to5"/>
+    <route id="complex_route8" edges="2to8 8to7 7to4"/>
+    <route id="complex_route9" edges="2to8 8to7 7to3"/>
+    <route id="complex_route10" edges="2to8 8to7 7to1"/>
+
+    <route id="complex_route11" edges="3to7 7to8 8to6"/>
+    <route id="complex_route12" edges="3to7 7to8 8to5"/>
+    <route id="complex_route13" edges="3to7 7to8 8to2"/>
+    <route id="complex_route14" edges="3to7 7to4"/>
+
+    <route id="complex_route15" edges="4to7 7to8 8to6"/>
+    <route id="complex_route16" edges="4to7 7to8 8to5"/>
+    <route id="complex_route17" edges="4to7 7to8 8to2"/>
+    <route id="complex_route18" edges="4to7 7to3"/>
+
+    <route id="complex_route19" edges="5to8 8to2"/>
+    <route id="complex_route20" edges="5to8 8to7 7to4"/>
+    <route id="complex_route21" edges="5to8 8to7 7to3"/>
+    <route id="complex_route22" edges="5to8 8to6"/>
+
+    <route id="complex_route23" edges="6to8 8to2"/>
+    <route id="complex_route24" edges="6to8 8to7 7to4"/>
+    <route id="complex_route25" edges="6to8 8to7 7to3"/>
+    <route id="complex_route26" edges="6to8 8to5"/>
+ 
+                
+    <!-- Flows -->
+                            
+    <flow id="flow0" type="car" route="route0" begin="0" end="3600" vehsPerHour="50"/>
+    <flow id="flow1" type="car" route="route1" begin="0" end="3600" vehsPerHour="50"/>
+    <flow id="flow2" type="car" route="route2" begin="0" end="3600" vehsPerHour="50"/>
+    <flow id="flow3" type="car" route="route3" begin="0" end="3600" vehsPerHour="50"/>
+    <flow id="flow4" type="car" route="route4" begin="0" end="3600" vehsPerHour="50"/>
+    <flow id="flow5" type="car" route="route5" begin="0" end="3600" vehsPerHour="50"/>
+            
+    <flow id="emergency_flow1" type="emergency_car" route="emergency_route1" begin="0" end="3600" vehsPerHour="6"/>
+    <flow id="emergency_flow2" type="emergency_car" route="emergency_route2" begin="0" end="3600" vehsPerHour="6"/>
+                
+    <flow id="complex_flow1" type="car" route="complex_route1" begin="0" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow2" type="car" route="complex_route2" begin="0" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow3" type="car" route="complex_route3" begin="0" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow4" type="car" route="complex_route4" begin="0" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow5" type="car" route="complex_route5" begin="0" end="3600" vehsPerHour="50"/>
+                
+    <flow id="complex_flow6" type="car" route="complex_route6" begin="0" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow7" type="car" route="complex_route7" begin="0" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow8" type="car" route="complex_route8" begin="0" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow9" type="car" route="complex_route9" begin="0" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow10" type="car" route="complex_route10" begin="0" end="3600" vehsPerHour="50"/>
+                
+    <flow id="complex_flow11" type="car" route="complex_route11" begin="0" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow12" type="car" route="complex_route12" begin="0" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow13" type="car" route="complex_route13" begin="0" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow14" type="car" route="complex_route14" begin="0" end="3600" vehsPerHour="50"/>
+    
+    <flow id="complex_flow15" type="car" route="complex_route15" begin="0" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow16" type="car" route="complex_route16" begin="0" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow17" type="car" route="complex_route17" begin="0" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow18" type="car" route="complex_route18" begin="0" end="3600" vehsPerHour="50"/>
+                
+    <flow id="complex_flow19" type="car" route="complex_route19" begin="400" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow20" type="car" route="complex_route20" begin="400" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow21" type="car" route="complex_route21" begin="800" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow22" type="car" route="complex_route22" begin="800" end="3600" vehsPerHour="50"/>
+    
+    <flow id="complex_flow23" type="car" route="complex_route23" begin="1500" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow24" type="car" route="complex_route24" begin="1500" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow25" type="car" route="complex_route25" begin="1500" end="3600" vehsPerHour="50"/>
+    <flow id="complex_flow26" type="car" route="complex_route26" begin="1500" end="3600" vehsPerHour="50"/>
+                        
+</routes>

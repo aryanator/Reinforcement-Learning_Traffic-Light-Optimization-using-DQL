@@ -1,0 +1,19 @@
+<edges>
+    <edge id="1to7" from="1" to="7" priority="1" numLanes="2" speed="13.89"/>
+    <edge id="7to8" from="7" to="8" priority="1" numLanes="2" speed="13.89"/>
+    <edge id="8to2" from="8" to="2" priority="1" numLanes="2" speed="13.89"/>
+    <edge id="2to8" from="2" to="8" priority="1" numLanes="2" speed="13.89"/>
+    <edge id="8to7" from="8" to="7" priority="1" numLanes="2" speed="13.89"/>
+    <edge id="7to1" from="7" to="1" priority="1" numLanes="2" speed="13.89"/>
+    <edge id="3to7" from="3" to="7" priority="1" numLanes="2" speed="13.89"/>
+    <edge id="7to4" from="7" to="4" priority="1" numLanes="2" speed="13.89"/>
+    <edge id="4to7" from="4" to="7" priority="1" numLanes="2" speed="13.89"/>
+    <edge id="7to3" from="7" to="3" priority="1" numLanes="2" speed="13.89"/>
+    <edge id="5to8" from="5" to="8" priority="1" numLanes="2" speed="13.89"/>
+    <edge id="8to6" from="8" to="6" priority="1" numLanes="2" speed="13.89"/>
+    <edge id="6to8" from="6" to="8" priority="1" numLanes="2" speed="13.89"/>
+    <edge id="8to5" from="8" to="5" priority="1" numLanes="2" speed="13.89"/>
+                
+    <edge id="e1to7" from="e1" to="7" priority="1" numLanes="1" speed="20.0"/>
+    <edge id="7toe1" from="7" to="e1" priority="1" numLanes="1" speed="20.0"/>
+</edges>

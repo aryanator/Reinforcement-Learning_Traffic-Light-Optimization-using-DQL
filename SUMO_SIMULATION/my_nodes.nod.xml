@@ -1,0 +1,13 @@
+<nodes>
+    <node id="1" x="0" y="0" type="priority"/>
+    <node id="2" x="100" y="0" type="priority"/>
+    <node id="3" x="25" y="50" type="priority"/>
+    <node id="4" x="25" y="-50" type="priority"/>
+    <node id="5" x="75" y="50" type="priority"/>
+    <node id="6" x="75" y="-50" type="priority"/>
+    <node id="7" x="25" y="0" type="traffic_light"/>
+    <node id="8" x="75" y="0" type="traffic_light"/>
+                
+    <node id="e1" x="0" y="25" type="priority"/>
+    <node id="e2" x="25" y="0" type="priority"/>
+</nodes>
